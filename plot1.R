@@ -26,8 +26,8 @@ plotfun <- function(df) {
   hist(df$Global_Active_Power, col="red", main="Global Active Power", xlab = "Global Active Power (kilowatts)")
 }
 
-# call
-df <- readFile(colN =c("Date", "Time", "Global_Active_Power"), 
-               colC = c("character", "character", "numeric"))
+# call - just 1 field required
+df <- readFile(colN =c("NULL", "NULL", "Global_Active_Power"), 
+               colC = c("NULL", "NULL", "numeric"))
 withpng(df, plotfun)
 print("Done")
