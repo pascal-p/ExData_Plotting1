@@ -2,3 +2,6 @@
 .Rhistory
 household_power_consumption.txt
 *.BAK
+.Rproj.user
+project/README.html
+data/
